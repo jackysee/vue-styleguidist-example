@@ -33,5 +33,10 @@
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build"
   },
-  "keywords": ["vuejs", "documentation", "live", "design system"]
+  "keywords": [
+    "vuejs",
+    "documentation",
+    "live",
+    "design system"
+  ]
 }
