@@ -7,4 +7,10 @@ const comp = {
   }
 };
 
-export { comp as _ };
+function someFunction(c) {
+  return c;
+}
+
+const __comp__ = someFunction(comp);
+
+export { __comp__ as _ };

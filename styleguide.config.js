@@ -2,8 +2,8 @@ const vueLoader = require("vue-loader");
 
 module.exports = {
   title: "Vue Style Guide Example",
-  components: "src/components/**/{Modal.vue,CompB.js,CompA.js}",
-  //components: "src/components/**/{Modal.vue,CompB.js}",
+  components: "src/components/**/{Modal.vue,compB.js,compA.js}",
+  // components: "src/components/**/{Modal.vue,CompB.js}",
   require: ["./prism-vsc.css"],
   jssThemedEditor: false,
   defaultExample: true,
